@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Rohan Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img  id="imgav" src="./assets/images/Rohan1.jpg" alt="Rohan Kalkumbe" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Mr. Rohan Kalkumbe</h1>
+
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+          <h2
+            style="color:#fff; font-size: 0.9rem; font-weight: bold; display: flex; justify-content: center; align-items: center;">
+            I'm <span style="margin-left: 8px; color:#e7df08;" class="typing"></span>
+          </h2>
+
+          <script>
+            var typed = new Typed(".typing", {
+              strings: ["Data Analyst", "Business Analyst", "Data Scientist"],
+              typeSpeed: 100,
+              backSpeed: 50,
+              loop: true,
+              showCursor: true,
+              cursorChar: "|"
+            });
+          </script>
+
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rohankalkumbe31@gmail.com" class="contact-link">rohankalkumbe31@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919049045218" class="contact-link">+91 9049045218</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-10-2003">Oct 31, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, Maharashtra</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Rohankalkumbe" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rohan-kalkumbe-460bb0271/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/its_royal_rohan_96k?igsh=YzF6Z2psdzA1dWRj" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificate</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! I'm Rohan, a Final-Year Computer Science and Engineering Student at MIT College of Engineering,
+            Barshi. Where I also serve as the Department President, aspiring to become a Data Scientist.
+
+
+            With a passion for data-driven solutions, I am committed to applying my technical skills to solve real-world
+            problems.
+          </p>
+          <p>
+          <ul>
+            <li><b>Visualization Tools:</b> MS Excel, Power BI, Tableau</li>
+            <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
+            <li><b>Libraries:</b> Python with libraries like NumPy, Pandas, Mathplotlib, Seaborn, OpenCV</li>
+            <li><b>Frameworks:</b> Flask, Django, Keras, TensorFlow, PyTorch, Bootstrap, Apache Beam</li>
+            <li><b>Tools & Technologies:</b> Deep Learning, Machine Learning, Git, Docker, AWS, GCP, Heroku, JIRA</li>
+          </ul>
+
+          </p>
+
+          <!-- <p>
+            
+            Detail-oriented Data Analyst with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
+          </p> -->
+          <p>
+            Looking for an opportunity to work in a challenging position combining my skills in Data Analyst, which
+            provides professional development, interesting experiences and personal growth.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Analyzing datasets and optimize decision-making, and drive data-driven business strategies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sachin Jalkoti</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I’ve seen Rohan take on challenging projects and execute them flawlessly. His work on data visualization and analytics using Power BI and Plotly has been outstanding. He has a strong analytical mindset that makes him a great asset to any team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anjali Singh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rohan is an exceptional problem solver with a deep understanding of backend development and data science. His ability to tackle complex challenges and deliver efficient solutions is truly impressive. Working with him has been a great learning experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lili Patil</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rohan’s expertise in Python, Java, and cloud computing makes him a standout developer. His attention to detail and dedication to optimizing performance set him apart. He’s always ready to help and share knowledge, making him a valuable team player.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pranit Pardhi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rohan’s leadership skills, combined with his technical expertise, make him a true inspiration. As a Department President, he managed responsibilities effortlessly while excelling in software development. His passion for learning and innovation is contagious!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+        
+        <div class="modal-container" data-modal-container>
+  
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Rohan Kalkumbe</h4>
+
+              <time datetime="2021-06-14">1 Dec, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  I've had the pleasure of working with Rohan on multiple projects, and his analytical mindset, coupled with his strong grasp of data visualization tools like Power BI and Tableau, sets him apart. His Zomato Restaurant data analysis dashboard was a standout demonstration of his skills.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MIT College of Railway Engineering & Research</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                B.Tech in Computer Science and Engineering and Honors Degree in AI & Machine Learning
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shivaji Polytechnic College</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Diploma in Computer Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Balkrishna Vidyalaya</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Secondary School Certificate
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CSE Department President | MIT College of Engineering, Barshi</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Led and coordinated departmental activities, fostering a collaborative and innovative environment.
+                Organized technical workshops, hackathons, and seminars to enhance student engagement.
+                Represented the department in college-wide events and decision-making committees.
+                Managed teams efficiently, ensuring smooth execution of academic and extracurricular initiatives.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Data Science GLOBAL TECH PVT.LTD, Pune</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                Data science involves analyzing information to derive insights
+                and inform decision-making.
+                Data visualization enhances understanding through graphica
+                representations, aiding communication and comprehension.
+                Responsibilities include data cleaning, modeling,
+                and interpretation.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MS Excel</h5>
+                <data value="90">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Statistics & Agile Methodology</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Resume Download</title>
+                <style>
+                  .resume-download {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 10vh;
+                  }
+
+                  .form-btn{
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border: none;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                  }
+
+                </style>
+                </head>
+
+                <body>
+
+                  <div class="resume-download">
+                    <a href="https://drive.google.com/file/d/1q4BMIJARCcAym2Zi-IJubhdDvtL02mx0/view?usp=sharing"
+                      download>
+                      <!-- <button class="download-button">Download Resume</button> -->
+                      <button class="form-btn" type="Download">
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Download Resume</span>
+                      </button>
+                    </a>
+                  </div>
+              </div>
+
+            </li>
+
+          </ul>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Project</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Project</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p_2.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ChatBot</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://www.linkedin.com/posts/rohan-kalkumbe_dataanalytics-businessintelligence-powerbi-activity-7307836866744016896-CFmd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKQEYgBq1eP8qEKr0cfZ2EFLVrsLKwM29I">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dash_2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Covid-19 Data Analysis</h3>
+
+                <p class="project-category">DashBoard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://www.linkedin.com/posts/rohan-kalkumbe_dataanalytics-powerbi-dax-activity-7294395110513864704-rx3_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKQEYgBq1eP8qEKr0cfZ2EFLVrsLKwM29I">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dash_1.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Zomato Restaurant Analysis</h3>
+
+                <p class="project-category">DashBoard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dash_3.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coffee Shop Sale Analysis</h3>
+
+                <p class="project-category">DashBoard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://www.linkedin.com/posts/rohan-kalkumbe_music-store-data-analysis-activity-7269049690736742400-M5S-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKQEYgBq1eP8qEKr0cfZ2EFLVrsLKwM29I">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p_3.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music Store Data Analysis</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/Rohankalkumbe/Phone_Pay_Data_Analysis.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dash_4.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Phone Pay Data Analysis</h3>
+
+                <p class="project-category">DashBoard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://www.linkedin.com/posts/rohan-kalkumbe_powerbi-sql-excel-activity-7319686537997115392-S48K?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKQEYgBq1eP8qEKr0cfZ2EFLVrsLKwM29I">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dash_5.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Western Countries Financial Data Analysis</h3>
+
+                <p class="project-category">Dashboard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://www.linkedin.com/posts/rohan-kalkumbe_dataanalyst-opentowork-python-activity-7296903021530116096-cqOi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEKQEYgBq1eP8qEKr0cfZ2EFLVrsLKwM29I">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p_4.webp" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-Commerce Data Analysis</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="project">
+              <a href="https://image-colorization-design.onrender.com">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p_1.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Automatic Colorization of Photos</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/music_app.webp" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/map_app.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Map Location</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Rohankalkumbe/flutterIntern.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mhtechin_task_app.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mhtechin App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Registration_app.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Registration Page</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/API_app.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">API Call</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certificates
+      -->
+
+      <article class="certificate" data-page="certificate">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="certificate-posts">
+
+          <ul class="certificate-posts-list">
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_1.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Excel</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep 19, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_2.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Web Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 17, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Udemy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_3.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Data Science Internship</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 12, 2023</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Global Tech PVT.LTD</h3>
+
+                  <!-- <p class="certificate-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_4.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Cyber Security</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 10, 2023</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">The Techunique Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_5.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Java</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep o6, 2023</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Learn Tube</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">AWS Training</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 13, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Internship Studio</h3>
+
+                  <!-- <p class="certificate-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_7.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">AWS Internship</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July 13, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Internship Studio</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_8.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">SQL</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 11, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_9.png" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Statistics</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 29, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_12.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Python</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 18, 2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_11.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Tableau</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 13, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_10.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Agile Methodology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 24, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_13.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Introduction to AI with Python</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-04-31">April 30, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">HarvardX</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQbfBvvMxzmlFWNvWTZhQqfWJnG?projector=1&messagePartId=0.1">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_14.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Power BI</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">MAy 09, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_15.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Data Science: Machine Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-05-31">May 31, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">HarvardX</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQbfVFlPZVbttpPLdxXPLmKzJnJ">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_16.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Business Analyst (ChatGPT Included)</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 31, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#all/FMfcgzQbfVCSngCjCTSSFFpxmwkjrsfp?projector=1&messagePartId=0.1">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/c_17.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Business Analyst - Internship</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 31, 2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Skill Academy</h3>
+
+                  <!-- <p class="certificate-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p> -->
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- Google Map Embed -->
+<!-- Google Map Embed -->
+<section class="mapbox" data-mapbox>
+  <figure>
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.673603624429!2d73.82358927371976!3d18.498438069852792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfee9d82e727%3A0xa21a1a1ab13cdb9c!2sAlankar%20Police%20Station!5e0!3m2!1sen!2sin!4v1740311840432!5m2!1sen!2sin" 
+          width="100%" 
+          height="350" 
+          style="border:0; border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" 
+          allowfullscreen="" 
+          loading="lazy">
+      </iframe>
+  </figure>
+</section>
+
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xanqznpn" method="POST" class="form">
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+      </article>
+
+
+      <script>
+        // Enable submit button when form is filled
+        document.addEventListener("DOMContentLoaded", function () {
+          const form = document.querySelector(".form");
+          const inputs = form.querySelectorAll(".form-input");
+          const submitBtn = document.getElementById("submit-btn");
+
+          function checkForm() {
+            let isValid = true;
+            inputs.forEach(input => {
+              if (!input.value.trim()) {
+                isValid = false;
+              }
+            });
+            submitBtn.disabled = !isValid;
+          }
+
+          inputs.forEach(input => {
+            input.addEventListener("input", checkForm);
+          });
+        });
+      </script>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
